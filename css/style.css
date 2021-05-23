@@ -1,0 +1,789 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*******************
+   header section
+*******************/
+
+header{
+	width: 100%;
+	background: black;
+	padding: 10px;
+}
+
+.nav-link{
+	color: white !important;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+    font-size: 16px;
+}
+
+.nav-item{
+	margin-left: 40px;
+}
+
+.nav-link:hover{
+	color: #ff8b38 !important;
+}
+
+.sticky{
+	width: 100%;
+	position: fixed;
+	background: black 0.5%;
+	z-index: 9999;
+}
+
+/**************************
+   banner section left
+**************************/
+
+.banner{
+	width: 100%;
+	background: url(../img/back.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 94vh;
+}
+
+.banner-content{
+	height: 92vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.b-logo{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 86px;
+	font-weight: 600;
+}
+.b-logo span{
+	color: #ff8b38;
+	font-weight: 400;
+}
+
+.banner-content .line{
+	width: 100px;
+    height: 2px;
+    background: white;
+    margin: 32px 0;
+}
+
+.banner-content .title{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 38px;
+	font-weight: 400;
+	width: 75%;
+}
+.banner-content p{
+	font-family: 'Raleway', sans-serif;
+	color: #aaa;
+	width: 70%;
+}
+
+.btn{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fbfdff;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 1rem;
+    border-radius: .25rem;
+    width: 150px;
+    height: 45px;
+    margin-top: 25px;
+}
+    
+.btn:hover {
+    color: #ff8b38;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    cursor: pointer;
+    border: 2px solid #ff8b38;
+}
+
+/**************************
+   banner section right
+**************************/
+
+.banner-form{
+	height: 92vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner-form .card{
+	width: 360px;
+	border: none;
+}
+
+.banner-form .form-control {
+	border: none;
+    border-bottom: 1px solid #b4bcc5;
+    margin-bottom: 36px;
+    border-radius: 0;
+}
+
+.banner-form .card-body{
+	padding: 30px;
+}
+
+.banner-form h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	color: #333;
+	font-weight: 700;
+	margin: 0;
+	line-height: 34px;
+}
+
+.banner-form h3 span{
+	color: #ff8b38;
+}
+
+.banner-form .card-header{
+	background: #ecf8fc;
+	text-align: center;
+}
+
+.last{
+	margin-bottom: 20px !important;
+}
+
+.banner-form .card-footer{
+	background-color: #ff8b38;
+	padding: 0;
+	border: none;
+}
+
+.banner-form .submit-btn{
+	width: 100%;
+    padding: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+/*******************************
+   social-media section left
+*******************************/
+.social-media{
+	width: 100%;
+    padding: 20px 0;
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.media h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.media p{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*******************************
+   social-media section right
+*******************************/
+.icon a i{
+	color: gainsboro;
+    font-size: 48px;
+    padding: 20px 26px;
+}
+
+.icon a i:hover{
+	transform: scale(1.2);
+    transition: 0.4s .03s ease-in-out;
+    color: #ff8b38;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 10%), 0 17px 50px 0 rgb(0 0 0 / 8%);
+}
+
+/*******************************
+       features section
+*******************************/
+ .feature{
+ 	width: 100%;
+ 	padding: 80px 0;
+ 	background: #f5f5f5;
+ }
+
+ .feature-tab{
+ 	padding: 0;
+ }
+
+.feature-tab .tab{
+	font-family: 'Open Sans', sans-serif;
+	list-style: none;
+	background-color: #333333;
+	color: white;
+	margin-bottom: 1px;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	font-weight: 600;
+}
+
+.feature-tab .tab:first-child {
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.feature-tab .tab:last-child {
+	border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.current{
+	background: #ff8b38 !important;
+}
+
+.feature-tab .tab:hover{
+	background: #ff8b38;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.tab-content{
+	width: 90%;
+}
+
+.tab-content h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-weight: 700;
+	padding-bottom: 30px;
+}
+
+.tab-content p{
+	font-family: 'Open Sans', sans-serif;
+	color: #898989;
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+.tab-content .btn {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fbfdff;
+    text-align: center;
+    background-color: #ff8b38;
+    font-size: 1rem;
+    border-radius: .25rem;
+    width: 150px;
+    height: 45px;
+    border: none;
+    margin: 0;
+}
+
+.tab-content .btn:hover{
+	transform: scale(1.1);
+    transition: 0.4s .03s ease-out; 
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 10%), 0 17px 50px 0 rgb(0 0 0 / 8%);
+}
+
+/*******************************
+       features-2 section
+*******************************/
+
+.feature-2{
+ 	width: 100%;
+ 	padding: 80px 0;
+ }
+.fea-2-cont h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-weight: 700;
+}
+
+.fea-2-cont .line{
+	width: 100px;
+    height: 3px;
+    background: #ff8b38;
+    margin: 32px 0;
+}
+
+.fea-2-cont p{
+	font-family: 'Open Sans', sans-serif;
+	color: #898989;
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+.fea-2-text h4 {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-weight: 600;
+}
+
+.fea-2-text p{
+	font-family: 'Open Sans', sans-serif;
+	color: #898989;
+	font-weight: 400;
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+.fea-2-icon i{
+	color: #ff8b38;
+}
+
+.fea-2-icon{
+    border: 2px solid #ff8b38;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 30px;
+}
+
+/*******************************
+       features-3 section
+*******************************/
+
+.feature-3{
+ 	width: 100%;
+ 	padding: 80px 0;
+ 	background: #f5f5f5;
+}
+
+.fea-3-cont h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-weight: 700;
+}
+
+.fea-3-cont .line{
+	width: 100px;
+    height: 3px;
+    background: #ff8b38;
+    margin: 32px 0;
+}
+
+.fea-3-cont p{
+	font-family: 'Open Sans', sans-serif;
+	color: #898989;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+/*******************************
+       awesome section
+*******************************/
+
+.awesome{
+ 	width: 100%;
+ 	padding: 80px 0;
+ 	text-align: center;
+}
+
+.awesome-text h1{
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	font-weight: 400;
+}
+
+.awesome-text .line{
+	width: 100px;
+    height: 3px;
+    background: #ff8b38;
+    margin: 26px auto;
+}
+
+.awesome-text p{
+	font-family: 'Raleway', sans-serif;
+	color: #898989;
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 70px;
+}
+
+.option i{
+	color: #ff8b38;
+	font-size: 24px;
+	border: 2px solid #ff8b38;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+}
+
+.option h4, .user-details h4{
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	font-weight: 600;
+	margin: 26px 0;
+}
+
+.option p{
+	font-family: 'Raleway', sans-serif;
+	color: #898989;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 0px 8px;
+}
+
+/*******************************
+       pricing section
+*******************************/
+
+.pricing , .customer-review{
+ 	width: 100%;
+ 	padding: 80px 0;
+ 	text-align: center;
+ 	background: #f5f5f5;
+}
+
+.pricing h1, .review-head h1 , .contact-us h1{
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	font-weight: 400;
+}
+
+.pricing .line , .contact-us .line{
+	width: 100px;
+    height: 3px;
+    background: #ff8b38;
+    margin: 26px auto;
+}
+
+.pricing p , .contact-us p{
+	font-family: 'Raleway', sans-serif;
+	color: #898989;
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+/*******************************
+       table section
+*******************************/
+
+.table-1{
+	text-align: center;
+}
+
+.t-header{
+	background: #333;
+	padding: 20px 0;
+	border-bottom: 2px solid #f5f5f5;
+}
+
+.t-header h5{
+	margin: 0;
+	color: white;
+}
+
+.t-body{
+	background: #333;
+	padding: 10px 0;
+	border-bottom: 5px solid #ff8b38;
+}
+
+.t-body h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 94px;
+	color: white;
+	margin: 0;
+}
+
+.t-body span{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	color: white;
+}
+
+.t-body p{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	color: #898989;
+	font-weight: 600;
+	font-size: 16px;
+	margin: 0;
+    padding-bottom: 22px;
+}
+
+.t-footer{
+	background-color: white;
+}
+
+.t-footer ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.t-footer ul li{
+	border-bottom: 1px solid #f5f5f5;
+	padding: 12px 0;
+	color: #898989; 
+}
+
+.t-footer ul li:nth-child(6){
+	border-bottom: 0px;
+}
+
+.p-table{
+	align-items: flex-end;
+}
+
+.middle .t-body{
+	border-bottom: 0;
+}
+
+.t-body-extra{
+	background-color: #ff8b38;
+	padding: 12px 0;
+}
+
+.t-body-extra span{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/**************************************
+       customer-review section
+**************************************/
+
+/**note:customer-review & review-head h1 is on pricing section**/
+
+.comment-sec{
+	margin: 20px;
+}
+.review-head .line{
+	width: 100px;
+    height: 3px;
+    background: #ff8b38;
+    margin: 26px auto;
+}
+
+.review-head p{
+	font-family: 'Raleway', sans-serif;
+	color: #898989;
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.message{
+	background-color: #ececec;
+	width: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 40px 0;
+
+}
+
+.message p{
+	font-family: 'Opensans', sans-serif;
+	color: #898989;
+	font-weight: 500;
+	font-size: 16px;
+	font-style: italic;
+	text-align: left;
+}
+
+.user-details p{
+	font-family: 'Raleway', sans-serif;
+	color: #898989;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: left;
+}
+
+.msg-icon{
+	width: 30px;
+    height: 30px;
+    background-color: #ececec;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.user-details img{
+	border-radius: 50px;
+}
+
+.user-details h5{
+	font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: left;
+}
+
+
+/*****************************
+       stylish section
+*****************************/
+.stylish{
+	background-image: url(../img/4.png);
+	width: 100%;
+ 	padding: 80px 0;
+ 	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.stylish h1{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-weight: 400;
+}
+
+.stylish .line{
+	width: 100px;
+    height: 3px;
+    background: #ff8b38;
+    margin: 26px auto;
+}
+
+.stylish p{
+	font-family: 'Raleway', sans-serif;
+	color: #949494;
+	font-weight: 500;
+	font-size: 16px;
+	
+}
+
+.stylish-btn .btn{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fbfdff;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 1rem;
+    border-radius: .25rem;
+    width: 150px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.stylish-btn .btn:hover {
+    color: #ff8b38;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    cursor: pointer;
+    border: 3px solid #ff8b38;
+}
+
+/*****************************
+       contact-us section
+*****************************/
+
+.contact-us {
+	width: 100%;
+ 	padding: 80px 0;
+ 	text-align: center;
+}
+
+.form{
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #949494;
+}
+
+.f-bar input{
+    height: 50px;
+    margin: 10px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-color: #4f2308c7;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.f-bar-msg input{
+    display: block;
+    border: none;
+    outline: none;
+    margin: 35px 0px;
+    border-bottom: 1px solid #bdbdbd;
+    width: 90%;
+    padding-bottom: 142px;
+}
+ 
+.contact-us-btn .btn{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fbfdff;
+    text-align: center;
+    background-color: #ff8b38;
+    font-size: 1rem;
+    border-radius: .25rem;
+    width: 150px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.contact-us-btn .btn:hover{
+    color: #fff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 10%), 0 17px 50px 0 rgb(0 0 0 / 8%);
+    cursor: pointer;
+}
+
+/*****************************
+       footer section
+*****************************/
+
+.footer{
+	width: 100%;
+ 	padding: 20px 0;
+ 	text-align: center;
+ 	background: #000;
+}
+
+
+.footer-icon a i{
+	list-style: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.footer-icon a i:hover{
+	transform: scale(1.2);
+    transition: 0.4s .03s ease-in-out;
+    color: #ff8b38;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 10%), 0 17px 50px 0 rgb(0 0 0 / 8%);
+}
+
+.copyright p{
+	color: #7d7d7d;
+	font-family: 'Open Sans', sans-serif;
+    padding-top: 5px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
